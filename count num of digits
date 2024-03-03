@@ -1,0 +1,5 @@
+n=(input("enter the num"))
+x=len(n)
+n=int(n)
+print(n)
+print(x)
