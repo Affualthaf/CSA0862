@@ -1,0 +1,10 @@
+a=eval(input("enter the first num"))
+b=eval(input("enter the second num"))
+c=eval(input("enter the third num"))
+if(a>b & b>c):
+    print("a is greatest num",a)
+elif(b>c):
+        printf("b is the greatest num",b)
+else:
+        print("c is greatest num",c)
+     
