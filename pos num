@@ -1,0 +1,22 @@
+n=eval(input("enter the num"))
+sp=0
+sn=0
+pc=0
+nc=0
+while(n!=-1):
+    if(n>0):
+        pc+=1
+        sp+=n
+    else:
+        nc+=1
+        sn+=n
+    n=eval(input("enter the num"))
+if(nc>0):
+    print("average of negative is ",sn/ nc)
+else:
+    print("no negative num enterted.")
+if(pc>0):
+    print("average of positive is ",sp/ pc)
+else:
+    print("no positive num enterted.")
+
