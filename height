@@ -1,0 +1,10 @@
+a=eval(input("enter height:"))
+if(a>180):
+    print("the person is taller")
+elif(a<=150):
+        print("the person is dwarf")
+else:
+    print("the person height is average")
+    
+    
+       
