@@ -1,0 +1,7 @@
+m=eval(input("enter the first num"))
+n=eval(input("enter the second num"))
+print("before swaping ",m,n)
+t=m
+m=n
+n=t
+print("after swapping",m,n)
