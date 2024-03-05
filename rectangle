@@ -1,0 +1,4 @@
+l=eval(input("enter the length"))
+b =eval(input("enter the breadth"))
+area=l*b
+print("the area is",area)
