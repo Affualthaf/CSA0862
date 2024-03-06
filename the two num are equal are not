@@ -1,0 +1,7 @@
+a=eval(input("enter the first num"))
+b=eval(input("enter the second num"))
+if(a==b):
+    print("the num is equal",a)
+else:
+    print("the num is not equal",b)
+
